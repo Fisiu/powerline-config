@@ -1,7 +1,9 @@
 powerline-config
 ================
 
-# Install
+Settings for [powerline](https://github.com/Fisiu/powerline).
+
+### Install
 
 Just grub config files and place them in $HOME/.config/powerline directory.
 
