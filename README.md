@@ -2,6 +2,8 @@ powerline-config
 ================
 
 Settings for [powerline](https://github.com/Fisiu/powerline).
+![screen](http://img856.imageshack.us/img856/8250/kvw2.png)
+
 
 ### Install
 
