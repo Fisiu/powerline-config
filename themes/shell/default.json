@@ -1,0 +1,58 @@
+{
+	"default_module": "powerline.segments.common",
+	"segment_data": {
+		"hostname": {
+			"before": " ",
+			"args": {
+				"only_if_ssh": true
+			}
+		},
+        "rvm_ruby": {
+            "before": "⬙ "
+        },
+		"virtualenv": {
+			"before": "ⓔ "
+		},
+		"branch": {
+			"before": " ",
+            "args": {
+                "status_colors": true
+            }
+		}
+	},
+	"segments": {
+		"left": [
+			{
+				"name": "hostname"
+			},
+			{
+				"name": "user"
+			},
+            {
+                "name": "rvm_ruby"
+            },
+			{
+				"name": "virtualenv"
+			},
+			{
+				"name": "cwd",
+				"args": {
+					"dir_limit_depth": 3
+				}
+			},
+			{
+				"module": "powerline.segments.shell",
+				"name": "jobnum"
+			}
+		],
+		"right": [
+			{
+				"module": "powerline.segments.shell",
+				"name": "last_pipe_status"
+			},
+			{
+				"name": "branch"
+			}
+		]
+	}
+}
