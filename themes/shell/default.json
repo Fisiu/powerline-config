@@ -7,7 +7,7 @@
 				"only_if_ssh": true
 			}
 		},
-        "rvm_ruby": {
+        "rvm": {
             "before": "⬙ "
         },
 		"virtualenv": {
@@ -29,7 +29,7 @@
 				"name": "user"
 			},
             {
-                "name": "rvm_ruby"
+                "name": "rvm"
             },
 			{
 				"name": "virtualenv"

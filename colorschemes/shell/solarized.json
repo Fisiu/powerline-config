@@ -5,7 +5,7 @@
 		"user":                 { "fg": "oldlace", "bg": "blue", "attr": ["bold"] },
 		"superuser":            { "fg": "oldlace", "bg": "red", "attr": ["bold"] },
 		"virtualenv":           { "fg": "oldlace", "bg": "green" },
-		"rvm_ruby":             { "fg": "red", "bg": "royalblue5", "attr": ["bold"]},
+		"rvmy":             { "fg": "red", "bg": "royalblue5", "attr": ["bold"]},
 		"branch":               { "fg": "gray61", "bg": "royalblue5" },
 		"branch_dirty":         { "fg": "yellow", "bg": "royalblue5" },
 		"branch_clean":         { "fg": "gray61", "bg": "royalblue5" },
